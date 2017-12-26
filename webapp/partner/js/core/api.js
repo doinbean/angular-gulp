@@ -6,14 +6,11 @@
 
         var apiList = {
             package: {
-                getPlanList: '/b/packet/relate_packet_item.do',              //获取列表
+                getPlanList: '',              //获取列表
             },
         };
 
-        var api = {
-            upload: '/upload/upload_file.do',
-            uploadImg: '/upload/upload_image.do'
-        };
+        var api = {};
 
         for (var moduleKey in apiList) {
             var moduleApiList = apiList[moduleKey];

@@ -11,9 +11,9 @@
             // Set to true if you want to see what and when is dynamically loaded
             debug: false
         });
-        var apps = ['package'];
+        var apps = ['package'];//新模块在这里加上和gulp.js中加上
         var dictionary = [];
-        var v = '?v=1.0.0';
+        var v = '?v=1.0.0';//上线手动更改版本(可以打包加上md5版本，实现了的，这里不做介绍)
         angular.forEach(apps, function (data) {
             var item = {};
             item.name = data;
@@ -75,28 +75,3 @@
         $rootScope.$state = $state;
     }
 })();
-// (function() {
-//     angular
-//         .module('app')
-//         .config(['$stateProvider', '$urlRouterProvider',config]);
-//
-//     function config ($stateProvider, $urlRouterProvider) {
-//         $urlRouterProvider.otherwise('/package/planList');
-//         $stateProvider
-//             .state('package', {
-//                 abstract: true,
-//                 url: '/package',
-//                 templateUrl: '/views/holder/nav.html',
-//                 resolve: {
-//                     loadApp: ['$ocLazyLoad', function ($ocLazyLoad) {
-//                         return $ocLazyLoad.load('package');
-//                     }]
-//                 }
-//             })
-//             .state('package.planList', {
-//                 url: "/planList",
-//                 templateUrl: "/views/app/package/planList.html",
-//                 controller: 'package.PlanListController'
-//             })
-//     }
-// })();
