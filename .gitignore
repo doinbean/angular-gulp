@@ -5,6 +5,7 @@ I#filter project file
 *.war
 *.ear
 *.iml
+.idea/
 
 **/node_modules
 # mac os #

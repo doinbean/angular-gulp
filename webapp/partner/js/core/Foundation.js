@@ -222,7 +222,7 @@
         }
 
         function goLogin() {
-            location.href = '/feiyu/register.html?action=login';
+
         }
 
         function replaceSpecialSymbol(obj) {
