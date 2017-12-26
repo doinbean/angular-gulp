@@ -1,0 +1,95 @@
+.tintmceRecommendList{
+    padding: 0 10px;
+    background-color: #fff;
+    clear: both;
+    margin-top: 10px;
+}
+.tintmceRecommendList:last-child{margin-bottom: 0;}
+.tintmceRecommendList em{
+    font-style: normal;
+}
+.tintmceRecommendList .siteBox{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+}
+.tintmceRecommendList .siteBox a{
+    color: #5183c0;
+}
+.tintmceRecommendList a{
+    text-decoration: none;
+}
+.tintmceRecommendList .sitePic {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+.tintmceRecommendList .sitePic .sitePicLay{
+    display: table-cell;
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+}
+.tintmceRecommendList .sitePic img{
+    width: auto;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+.tintmceRecommendList .siteInfo {
+    padding-left: 90px;
+    display: block;
+}
+.tintmceRecommendList .siteInfo .siteTitle {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #333;
+    display: block;
+    height: 48px;
+    overflow: hidden;
+}
+
+.tintmceRecommendList .sitePrice {
+    color: #999;
+    padding-right: 10px;
+    margin-top: -2px;
+    font-size: 15px;
+    display: block;
+}
+
+
+.tintmceRecommendList .red {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #d62222;
+}
+
+.tintmceRecommendList .grey {
+    margin-left: 10px;
+    color: #999;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+.tintmceRecommendList .blue{
+    color: #5183c0;
+}
+
+
+.tintmceRecommendList .redButton{
+    float: right;
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 2px;
+    background: #d62222;
+    color: #fff;
+    font-size: 14px;
+}

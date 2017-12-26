@@ -1,0 +1,1 @@
+!function(o){o.controller("package.OtherController",["$scope",function(o){console.log("other")}])}(angular.module("app")),function(o){o.controller("package.PlanListController",["$scope",function(o){console.log("planList")}])}(angular.module("app"));

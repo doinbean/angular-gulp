@@ -1,0 +1,31 @@
+{
+  "name": "smart-office-h5",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "connect": "^3.6.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-format": "^1.0.4",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-uglify": "^1.4.1",
+    "gulp-watch": "^4.3.5",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "ISC",
+  "description": ""
+}
